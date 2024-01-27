@@ -10,9 +10,9 @@ free -m
 echo -e "\n"
 sleep 3
 
-echo "menggunakan perintah df -h untuk menampilkan penggunaan ruang disk dalam gigabytes"
+echo "menggunakan perintah df -BG untuk menampilkan penggunaan ruang disk dalam gigabytes"
 echo "---- penggunaan ruang disk dalam gigabytyes ----"
-df -h
+df -BG
 echo -e "\n"
 sleep 3
 
