@@ -1,0 +1,1389 @@
+    1  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    2  bash
+    3  p10k configure
+    4  vim ~/.zshrc
+    5  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+    6  p10k
+    7  ls
+    8  clear
+    9  exit
+   10  clear
+   11  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+   12  sudo service mariadb status
+   13  sudo ufw allow mariadb
+   14  sudo ufw allow mariadb-server
+   15  vim /etc/mysql/mariadb.conf.d/50-server.cnf
+   16  sudo vim /etc/mysql/mariadb.conf.d/50-server.cnf
+   17  hostname -I
+   18  sudo vim /etc/mysql/mariadb.conf.d/50-server.cnf
+   19  sudo mysql
+   20  mysql -u root -p 
+   21  sudo service mysql restart
+   22  sudo ufw allow 3310/tcp
+   23  sudo ufw status
+   24  hostname -I
+   25  cat /etc/host
+   26  cat /etc/hosts
+   27  hostname -I
+   28  sudo mysql
+   29  sudo mysq -u root -p
+   30  sudo mysql -u root -p
+   31  sudo mysq -u root -p
+   32  sudo mysql -u root -p
+   33  hostname -I
+   34  clear
+   35  sudo apt install neofetch
+   36  clear
+   37  ls
+   38  clear
+   39  rm a.py
+   40  clear
+   41  ls
+   42  neofetch
+   43  clear
+   44  ls
+   45  neofetch
+   46  ls
+   47  hostname -I
+   48  clear
+   49  shutdown now
+   50  sudo shutdown now
+   51  clear
+   52  hostname -I
+   53  clear
+   54  sudo ufw status
+   55  sudo apt update
+   56  sudo apt install fontconfig
+   57  mkdir -p ~/.local/share/fonts
+   58  wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip -O ~/.local/share/fonts/FiraCode.zip
+   59  cd ~/.local/share/fonts
+   60  unzip FiraCode.zip
+   61  vim ~/.p10k.zsh
+   62  sudo apt install unzip
+   63  unzip FiraCode.zip
+   64  vim 
+   65  vim ~/.p10k.zsh
+   66  vim ~/.vimrc
+   67  vim ~/.p10k.zsh
+   68  sudo apt install bdf2psf
+   69  ls
+   70  rm FiraCode.zip
+   71  ls
+   72  otf2bdf -p 18 -r 96 -o fc-nerd.bdf 'Fira Code Regular Nerd Font Complete.ttf'
+   73  sudo apt install bdf2psf
+   74  sudo apt install otf2bdf
+   75  otf2bdf -p 18 -r 96 -o fc-nerd.bdf 'Fira Code Regular Nerd Font Complete.ttf'
+   76  bdf2psf --fb fc-nerd.bdf /usr/share/bdf2psf/standard.equivalents /usr/share/bdf2psf/fontsets/Uni2.512 512 fc-nerd.psf
+   77  bdf2psf --fb fc-nerd.bdf /usr/share/bdf2psf/standard.equivalents /usr/share/bdf2psf/fontsets/Uni2.512 fc-Dnerd.psf
+   78  setfont fc-nerd
+   79  ls
+   80  bdf2psf --fb fc-nerd.bdf /usr/share/bdf2psf/standard.equivalents /usr/share/bdf2psf/fontsets/Uni2.512 '512' fc-nerd.psf
+   81  bdf2psf --fb fc-nerd.bdf /usr/share/bdf2psf/standard.equivalents /usr/share/bdf2psf/fontsets/ '512' fc-nerd.psf
+   82  rm fc-nerd.bdf
+   83  ls
+   84  pwd
+   85  cd /usr
+   86  cd /share/fonts/opentype
+   87  mkdir /share/fonts/opentype
+   88  mkdir /share/fonts
+   89  cd share
+   90  ls
+   91  cd fonts
+   92  cd opentype
+   93  pwwd
+   94  pwd
+   95  cd /home/dvnver/.local/share/fonts
+   96  ls
+   97  sudo move * /usr/share/fonts/opentype
+   98  sudo mv * /usr/share/fonts/opentype
+   99  sudo fc-cache -f -v
+  100  shutdown now
+  101  sudo shutdown now
+  102  vim ~/.zshrc
+  103  clear
+  104  sudo reboot
+  105  clear
+  106  ls -a
+  107  ls
+  108  clear
+  109  cd Documents
+  110  mkdir Documents
+  111  ls
+  112  clear
+  113  sudo apt install cmatrix
+  114  sudo apt install cmatrix figlet
+  115  clear
+  116  cmatrix
+  117  clear
+  118  figlet HELLO
+  119  ls
+  120  clear
+  121  hostname -I
+  122  sudo mysql
+  123  clear
+  124  sudo mysql -u root -p
+  125  clear
+  126  ls -a
+  127  clear
+  128  sudo ufw status
+  129  sudo apt install nodejs npm
+  130  clear
+  131  ls
+  132  cd Documents
+  133  ls
+  134  clear
+  135  ls
+  136  clear
+  137  p10k configure
+  138  cd ..
+  139  ls
+  140  clear
+  141  p10k configure
+  142  clear
+  143  cd Documents
+  144  mkdir Backend
+  145  ls
+  146  cd Backend
+  147  ls
+  148  clear
+  149  git clone https://github.com/devanfer02/soschat-be.githttps://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+  150  clear
+  151  git clone https://github.com/devanfer02/soschat-be.git
+  152  clear
+  153  sudo apt install nginx
+  154  ls
+  155  clear
+  156  cd Documents
+  157  ls
+  158  cd Backend
+  159  ls
+  160  cd soschat-be
+  161  clear
+  162  ls
+  163  _ls
+  164  ls 0a
+  165  clear
+  166  ls -a
+  167  cp .env.example .env
+  168  ls
+  169  clear
+  170  ls -a
+  171  vim .env
+  172  :q!
+  173  clear
+  174  cd /var/www
+  175  clear
+  176  mkdir soschat
+  177  sudo mkdir soschat
+  178  ls
+  179  clear
+  180  sudo chown -R dvnver soschat
+  181  ls
+  182  clear
+  183  cd
+  184  clear
+  185  ls
+  186  clear
+  187  cd Documents
+  188  ls
+  189  npm -v
+  190  clear
+  191  ls
+  192  cd Backend
+  193  ls
+  194  cd soschat-be
+  195  ls
+  196  clear
+  197  cd
+  198  clear
+  199  ls
+  200  cd
+  201  shutdown now
+  202  clear
+  203  ls
+  204  clear
+  205  sudo service mysql status
+  206  sudo mysql -u root -p
+  207  clear
+  208  sudo mysql -u root -p
+  209  clear
+  210  sudo mysql -u root -p
+  211  clear
+  212  cmatrix
+  213  clear
+  214  ls
+  215  clear
+  216  sudo ufw status
+  217  sudo mysql -u root -p
+  218  clear
+  219  sudo mysql -u root -p
+  220  clear
+  221  exit
+  222  sudo ufw status
+  223  shutdown now
+  224  sudo shutdown now
+  225  clear
+  226  shutdown now
+  227  clear
+  228  shutdown now
+  229  mysql -u root -p 
+  230  clear
+  231  mysql -u root -p 
+  232  clear
+  233  sudo apt install go
+  234  sudo apt update
+  235  sudo reboot
+  236  hostname -I
+  237  clear
+  238  hostname -I
+  239  clear
+  240  sudo apt install golang
+  241  sudo apt install nginx
+  242  sudo vim /etc/nginx/sites-available/penjualandvd
+  243  sudo ln -s /etc/nginx/sites-available/penjualandvd /etc/nginx/sites-enabled
+  244  sudo service nginx restart
+  245  cd /var/www/penjualandvd
+  246  mdkir /var/www/penjualandvd
+  247  cd /var/www/penjualandvd
+  248  cd  /var/www/penjualandvd/var/www/penjualandvd
+  249  cd  /var/www/penjualandvd
+  250  cd /var/www 
+  251  ls
+  252  sudo mkdir penjualandvd
+  253  ls
+  254  cd penjualandvd
+  255  git clone https://github.com/devanfer02/Devan-Ferrel_Praktikum-DBDSQL.git
+  256  sudo git clone https://github.com/devanfer02/Devan-Ferrel_Praktikum-DBDSQL.git
+  257  ls
+  258  cd Devan-Ferrel_Praktikum-DBDSQL
+  259  ls
+  260  cd TugasPrak2
+  261  ls
+  262  cd penjualandvd-goimpl
+  263  ls
+  264  go build
+  265  go build -o app
+  266  cd app
+  267  go build -o app
+  268  clear
+  269  sudo nginx -t
+  270  go build -o app -buildvcs=false
+  271  sudo go build -o app -buildvcs=false
+  272  sudo ufw status
+  273  ls
+  274  mv app ..
+  275  ls
+  276  sudo mv app ..
+  277  ls
+  278  mv app.exe ..
+  279  app
+  280  mv app .
+  281  mv app ..
+  282  sudo mv app ..
+  283  rm app
+  284  ls
+  285  sudo rm app ..
+  286  sudo rm app 
+  287  ls
+  288  clear
+  289  go build -o api -buildvcs=false
+  290  sudo go build -o api -buildvcs=false
+  291  ls
+  292  mv api ..
+  293  sudo mv api ..
+  294  ls
+  295  cd ..
+  296  ls
+  297  sudo mv api ..
+  298  cd ..
+  299  ls
+  300  mv api ..
+  301  sudo mv api ..
+  302  ls
+  303  cd ..
+  304  ls
+  305  sudo mv api ..
+  306  ls
+  307  cd ..
+  308  ls
+  309  clear
+  310  ./api
+  311  ls
+  312  sudo rm api
+  313  cd Devan-Ferrel_Praktikum-DBDSQL
+  314  ls
+  315  cd TugasPrak2
+  316  ls
+  317  cd penjualandvd-goimpl
+  318  ls
+  319  cd app
+  320  ls
+  321  vim main.go
+  322  sudo vim main.go
+  323  ls
+  324  sudo go build -o api -buildvcs=false
+  325  sudo mv api ../../..
+  326  cd ..
+  327  ls
+  328  cd ..
+  329  ls
+  330  cd ..
+  331  ls
+  332  sudo mv api ..
+  333  ls
+  334  cd ..
+  335  ls
+  336  ./api
+  337  cd ..
+  338  ls
+  339  cd /etc/nginx/sites-available
+  340  ls
+  341  sudo vim penjualandvd
+  342  sudo nginx -s reload
+  343  clear
+  344  mkdir $GOPATH/go-web
+  345  sudo mkdir $GOPATH/go-web
+  346  cd $GOPATH/go-web
+  347  go mod init
+  348  go mod init go-web
+  349  vim main.go
+  350  sudo vim main.go
+  351  go run main.go
+  352  sudo go run main.go
+  353  clear
+  354  go build main.go
+  355  sudo go build main.go
+  356  ls
+  357  sudo vim /lib/systemd/system/goweb.service
+  358  sudo service goweb start
+  359  sudo service goweb status
+  360  cd /etc/nginx/sites-available
+  361  ls
+  362  rm penjualandvd
+  363  sudo rm penjualandvd
+  364  ls
+  365  sudo vim goweb
+  366  sudo ln -s /etc/nginx/sites-available/goweb /etc/nginx/sites-enabled/goweb
+  367  sudo nginx -s reload
+  368  sudo vim penjualandvd
+  369  sudo nginx -s reload
+  370  clear
+  371  ls
+  372  cd
+  373  clear
+  374  sudo mysql -u root -p
+  375  curl http://localhost:5030/api/movie | jq
+  376  sudo shutdown now
+  377  clear
+  378  neofetch
+  379  sudo service mariadb status
+  380  clear
+  381  ls
+  382  clear
+  383  cd Documents
+  384  ls
+  385  cd Backend
+  386  ls
+  387  cd soschat-be
+  388  ls
+  389  clear
+  390  ls
+  391  ls -a
+  392  vim .env
+  393  ls
+  394  cd ..
+  395  ls
+  396  rm -rf soschat-be
+  397  ls
+  398  git clone https://github.com/devanfer02/soschat-be.git
+  399  ls
+  400  cd soschat-be
+  401  ls
+  402  clear
+  403  vim .env
+  404  clear
+  405  mysql -u root -p 
+  406  npm -v
+  407  sudo service mariadb status
+  408  sudo vim /etc/mysql/mariadb.conf.d/50-server.cnf
+  409  npm install
+  410  cmd/migrate.sh
+  411  chmod +x cmd/migrate.sh
+  412  cmd/migrate.sh
+  413  vim .env
+  414  ls
+  415  cd src
+  416  clear
+  417  ls
+  418  cd db
+  419  ls
+  420  cd ../config
+  421  ls
+  422  vim db.ts
+  423  cd ..
+  424  ls
+  425  cd config
+  426  ls
+  427  vim env.ts
+  428  cd Documents/Backend/soschat-be/src
+  429  ls
+  430  cd config
+  431  ls
+  432  clera
+  433  clear
+  434  cat db.ts
+  435  cd ..
+  436  ls
+  437  cd ..
+  438  ls
+  439  clear
+  440  cat .env
+  441  clear
+  442  cmd/migrate.sh
+  443  ls
+  444  cd src/config
+  445  ls
+  446  vim database.js
+  447  cd ..
+  448  ls
+  449  cmd/migrate.sh
+  450  npm run dev
+  451  clear
+  452  cd src/models
+  453  cd src/db/models
+  454  vim Post.ts
+  455  cd ..
+  456  ls
+  457  npm run dev
+  458  cd src/db/models
+  459  clear
+  460  ls
+  461  vim Post.ts
+  462  clear
+  463  cd ..
+  464  ls
+  465  npm run dev
+  466  clear
+  467  sudo mysql
+  468  sudo mysql -u root -p
+  469  npm run dev
+  470  ls
+  471  cat package.json
+  472  npm run build
+  473  npm run prod
+  474  sudo npm install -g pm2
+  475  npm run prod
+  476  npm config rm proxy
+  477  npm config rm https-proxy
+  478  sudo reboot
+  479  sudo npm install -g pm2
+  480  sudo apt update
+  481  hostname -I
+  482  shutdown now
+  483  sudo apt update
+  484  clear
+  485  ping google.com
+  486  sudo apt update
+  487  ping https://google.com
+  488  nslookup goole.com
+  489  nslookup google.com
+  490  ip addr
+  491  sudo reboot
+  492  sudo npm install -g pm2
+  493  cd Documents/Backend/soschat-be/
+  494  clear
+  495  ls
+  496  ls dist
+  497  ls src
+  498  ls dist/src
+  499  pm2 dist/src/app.js
+  500  pm2 start dist/src/app.js
+  501  pm2 status
+  502  curl localhost:8070
+  503  curl localhost:8071
+  504  curl localhost:8070
+  505  curl localhost:3310
+  506  cd Documents/Backend/soschat-be/
+  507  clear
+  508  cat .env
+  509  clear
+  510  ls
+  511  cd src
+  512  ls
+  513  cd routes
+  514  ls
+  515  cat PostRoutes.ts
+  516  curl localhost:8070/api/posts -H "Accept: application/json"
+  517  sudo vim /etc/nginx/sites-available/default
+  518  pm2 status
+  519  pm2 stop app
+  520  cd ..
+  521  ls
+  522  pm2 start dist/src/app.js --name soschat
+  523  pm2 stop 0
+  524  cd /etc/nginx/sites-available
+  525  ls
+  526  clear
+  527  ls
+  528  sudo su
+  529  ls
+  530  sudo nginx -t
+  531  sudo service nginx restart
+  532  sudo systemctl nginx restart
+  533  sudo service nginx restart
+  534  sudo nginx -t
+  535  systemctl status nginx.service
+  536  sudo service nginx start
+  537  systemctl status nginx.service
+  538  sudo tail -n 50 /var/log/nginx/error.log
+  539  sudo netstat -tuln | grep :80
+  540  ls
+  541  clear
+  542  cat penjualandvd
+  543  cat goweb
+  544  cat default
+  545  cat goweb
+  546  vim soschat
+  547  sudo vim soschat
+  548  sudo ln -s /etc/nginx/sites-available/soschat /etc/nginx/sites-enabled/soschat
+  549  sudo rm /etc/nginx/sites-enabled/soschatpenjualandvd
+  550  sudo rm /etc/nginx/sites-enabled/soschat
+  551  sudo ln -s /etc/nginx/sites-available/soschat /etc/nginx/sites-enabled/soschat
+  552  sudo service nginx start
+  553  sudo tail -n 50 /var/log/nginx/error.log
+  554  ls
+  555  sudo rm /etc/nginx/sites-enabled/default
+  556  sudo rm default
+  557  ls
+  558  ls /etc/nginx/sites-enabled
+  559  sudo service nginx start
+  560  systemctl status nginx.service
+  561  journalctx -xeu nginx.service
+  562  journalctl -xeu nginx.service
+  563  clear
+  564  sudo apachectl status
+  565  sudo apachectl stop
+  566  sudo /etc/init.d/apache2 stop
+  567  sudo service nginx start
+  568  sudo service nginx status
+  569  clear
+  570  pm2 status
+  571  sudo netstat -tuln | grep :8070
+  572  sudo ufw allow 8070/tcp
+  573  sudo ufw status
+  574  hostname -I
+  575  sudo service mariadb status
+  576  clear
+  577  sudo mysql -u root -p
+  578  clear
+  579  git pull origin master
+  580  ls
+  581  clear
+  582  cd src
+  583  ls
+  584  cd db
+  585  ls
+  586  cd migrations
+  587  ls
+  588  cat 20230803131018-create-post.jsgoweb
+  589  cat 20230803131018-create-post.js
+  590  clear
+  591  cd ..
+  592  git pull 
+  593  pm2 status
+  594  pm2 delete 0
+  595  clear
+  596  cd ..
+  597  sudo service nginx status
+  598  sudo service nginx stop
+  599  ls
+  600  rm -rf soschat-be
+  601  ls
+  602  git clone https://github.com/devanfer02/soschat-be.git
+  603  clear
+  604  cd soschat-be
+  605  vim .env
+  606  cat .env
+  607  clear
+  608  npm install
+  609  clear
+  610  npm run build
+  611  pm2 start dist/src/app.js --name soschat
+  612  pm2 status
+  613  pm2 delete soschat
+  614  pm2 start dist/src/app.js --name soschat
+  615  clear
+  616  pm2 status
+  617  sudo service nginx start
+  618  sudo service nginx status
+  619  sudo ufw status
+  620  pm2 status
+  621  pm2 stop soschat
+  622  npm run prod
+  623  sudo shutdown now
+  624  clear
+  625  sudo mysql -u root -p
+  626  clear
+  627  pm2 stop soschat
+  628  pm2 status
+  629  cd Documents/Backend/soschat-be/
+  630  clear
+  631  pm2 start dist/src/app.js --name soschat
+  632  sudo ser
+  633  sudo service nginx status
+  634  sudo service nginx start
+  635  journalctl -xeu nginx.service
+  636  sudo apt remove apache2
+  637  sudo /etc/init.d/apache2 stop
+  638  clear
+  639  sudo service nginx start
+  640  sudo service nginx status
+  641  sudo ufw status
+  642  tail -f soschat.log
+  643  journalctl -u soschat.service
+  644  clear
+  645  cd /etc/nginx/sites-available
+  646  ls
+  647  clear
+  648  cat soschat
+  649  hostname -I
+  650  sudo ufw allow 8071/tcp
+  651  ping api.soschat.com:8071
+  652  ping http://api.soschat.com:8071
+  653  ping https://api.soschat.com:8071
+  654  sudo nginx -t
+  655  sudo systemctl nginx restart
+  656  sudo systemctl restart nginx
+  657  clear
+  658  cd
+  659  clear
+  660  sudo shutdown now
+  661  neofetch
+  662  clear
+  663  cd Documents/Backend/soschat-be/
+  664  ls
+  665  vim .env
+  666  clear
+  667  cd
+  668  sudo service nginx status
+  669  pm2 status
+  670  cd Documents/Backend/soschat-be/
+  671  clear
+  672  pm2 start dist/src/app.js --name soschat
+  673  pm2 status
+  674  ls
+  675  clear
+  676  ls
+  677  cd src
+  678  ls
+  679  vim app.ts
+  680  clear
+  681  cd ..
+  682  ls
+  683  clear
+  684  npm run build
+  685  pm2 status
+  686  pm2 delete soschat
+  687  pm2 start dist/src/app.js --name soschat
+  688  hostname -I
+  689  ls
+  690  ip a
+  691  hostname -i
+  692  hostname -I
+  693  sudo reboot
+  694  hostname -I
+  695  ifconfig
+  696  sudo shutdown now
+  697  ip a
+  698  hostname -I
+  699  sudo apt update
+  700  ip a
+  701  shutdown now
+  702  clear
+  703  ls
+  704  clear
+  705  pm2 status
+  706  cd ~/Documents
+  707  cd
+  708  vim ~/.zshrc
+  709  clear
+  710  cd Documents/Backend/soschat-be/
+  711  ls
+  712  vim ~/.zshrc
+  713  clear
+  714  cd
+  715  clear
+  716  cd Documents
+  717  pm2soschat
+  718  vim ~/.zshrc
+  719  clear
+  720  pm2soschat
+  721  vim ~/.zshrc
+  722  clear
+  723  source ~/.zshrc
+  724  pm2soschat
+  725  sudo service nginx status
+  726  clear
+  727  sudo service nginx status
+  728  pm2 status
+  729  pm2 delete app
+  730  vim ~/.zshrc
+  731  clear
+  732  pm2soschat
+  733  pm2 delete app
+  734  source ~/.zshrc
+  735  pm2 delete app
+  736  pm2soschat
+  737  ip a
+  738  hostname -I
+  739  sudo service mariadb status
+  740  sudo service nginx restart
+  741  clear
+  742  sudo service nginx status
+  743  clear
+  744  sudo systemctl restart nginx
+  745  pm2 status
+  746  pm2 delete soschat
+  747  clear
+  748  cd Documents
+  749  cd Backend
+  750  ls
+  751  cd soschat-be
+  752  ls
+  753  npm run prod
+  754  cd Documents
+  755  ls
+  756  cd Backend
+  757  ls
+  758  cd soschat-be
+  759  cat .env
+  760  clear
+  761  cd src
+  762  ls
+  763  cd db
+  764  ls
+  765  cd migrations
+  766  ls
+  767  vim 20230803122011-create-user.js
+  768  :wqa
+  769  clear
+  770  cat 20230803122011-create-user.js
+  771  clear
+  772  cd ..
+  773  clear
+  774  sudo mysql -u root -p
+  775  clear
+  776  cmd/migrate.sh
+  777  chmod +x cmd/migrate.sh
+  778  cmd/migrate.sh
+  779  sudo mysql -u root -p
+  780  cmd/migrate.sh
+  781  cd ..
+  782  clear
+  783  rm -rf soschat-be
+  784  git clone https://github.com/devanfer02/soschat-be.git
+  785  cd soschat-be
+  786  clear
+  787  npm install
+  788  chmod +x cmd/migrate.sh
+  789  cmd/
+  790  cd ..
+  791  cmd/migrate.sh
+  792  vim .env
+  793  clear
+  794  chmod +x cmd/migrate.sh
+  795  cmd/
+  796  cd ..
+  797  cmd/migrate.sh
+  798  vim .env
+  799  cmd/migrate.sh
+  800  cd src/db/migrations
+  801  ls
+  802  clear
+  803  ls
+  804  vim 20230803135704-create-comment.js
+  805  clear
+  806  cd ..
+  807  clear
+  808  ls
+  809  cmd/migrate.sh
+  810  npm run dev
+  811  clear
+  812  ls
+  813  npm run build
+  814  npm run prod
+  815  clear
+  816  cd ~/Documents
+  817  pm2soschat
+  818  source ~/.zshrc
+  819  pm2soschat
+  820  pm2 status
+  821  clear
+  822  cd Backend
+  823  ls
+  824  cd soschat-be
+  825  ls
+  826  cd src
+  827  ls
+  828  clear
+  829  cd src
+  830  clear
+  831  cd ..
+  832  vim .env
+  833  clear
+  834  cd
+  835  cmatrix
+  836  cd
+  837  bash
+  838  hostname -I
+  839  sudo apt update
+  840  qlc
+  841  clear
+  842  hostname -I
+  843  clear
+  844  ls
+  845  clear
+  846  ls
+  847  clear
+  848  sudo apt install gcc
+  849  sudo apt install g++
+  850  sudo apt remvoe g++
+  851  sudo apt remove g++
+  852  sudo apt install g++
+  853  ping google.com
+  854  cat /etc/resolv.conf
+  855  nslookup google.com
+  856  ping -c 4 8.8.8.8
+  857  curl -I https://www.google.com
+  858  ip a
+  859  ifconfig
+  860  clear
+  861  netstat -tuln
+  862  hostname -I
+  863  ip a
+  864  hostname -I
+  865  clear
+  866  ls
+  867  clear
+  868  ls
+  869  clear
+  870  ls
+  871  clear
+  872  ls
+  873  hostname -I
+  874  clear
+  875  hostname -I
+  876  shutdown now
+  877  hostname -I
+  878  shutdown now
+  879  clear
+  880  hostname -I
+  881  clear
+  882  sudo service nginx status
+  883  cd Documents/Backend/soschat-be/
+  884  clear
+  885  pm2soschat
+  886  cd
+  887  hostname -I
+  888  cd Documents/Backend/soschat-be/
+  889  clear
+  890  ls
+  891  cat .env
+  892  clear
+  893  cat .env
+  894  clear
+  895  ks
+  896  ls
+  897  cd src
+  898  ls
+  899  vim app.ts
+  900  clear
+  901  cd ..
+  902  npm run build
+  903  pm2 delete soschat
+  904  pm2sos
+  905  pm2soschat
+  906  clear
+  907  sudo shutdown now
+  908  clear
+  909  sudo shutdown now
+  910  hostname -I
+  911  shutdown now
+  912  clear
+  913  hostname -I
+  914  clear
+  915  hostname -I
+  916  sudo vim /etc/mysql/mariadb.conf.d/50-server.cnf
+  917  clear
+  918  shutdown now
+  919  sudo shutdown now
+  920  clear
+  921  sudo apt update
+  922  shutdown now
+  923  sudo shutdown now
+  924  shutdown now
+  925  mysql -u root -p 
+  926  clear
+  927  ls
+  928  clear
+  929  ls
+  930  clear
+  931  ls
+  932  clear
+  933  ls
+  934  mysql -u root -p 
+  935  sudo shutdown now
+  936  shutdown now
+  937  ls
+  938  clear
+  939  sudo shutdown now
+  940  clear
+  941  sudo shutdown now
+  942  shutdown now
+  943  mysql -u root -p 
+  944  clear
+  945  mysql -u root -p
+  946  clear
+  947  mysql -u root -p
+  948  ip a
+  949  clear
+  950  ls
+  951  mysql -u root -p
+  952  shtudown now
+  953  shutdown now
+  954  ls
+  955  clear
+  956  ip a
+  957  vim app.ts
+  958  clear
+  959  ip a
+  960  clear
+  961  ip a
+  962  ipa 
+  963  ip a
+  964  hostname -I
+  965  clear
+  966  ls
+  967  clear
+  968  ls
+  969  vim ~/.zshrc
+  970  clear
+  971  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+  972  vim ~/.zshrc
+  973  p10k configure
+  974  vim ~/.zshrc
+  975  cd $HOME/.oh-my-zsh
+  976  ls
+  977  cd custom
+  978  ;s
+  979  ls
+  980  cd themes
+  981  ls
+  982  rm -rf powerlevel10k
+  983  cd 
+  984  clear
+  985  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+  986  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom/themes/powerlevel10k
+  987  clear
+  988  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom/themes/powerlevel10k
+  989  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+  990  git -v
+  991  git clone https://github.com/devanfer02/litecartes-be.git
+  992  git clone git@github.com:devanfer02/litecartes-be.git
+  993  ssh-keygen -t ed25519 -c devanferrel04@gmail.com
+  994  ssh-keygen -t ed25519 -C devanferrel04@gmail.com
+  995  eval "$(ssh-agent -s)"
+  996  mkdir -p ~/.ssh/config
+  997  rmdir ~/.ssh/config
+  998  touch ~/.ssh/config
+  999  vim ~/.ssh/config
+ 1000  ssh-add ~/.ssh/id_ed25519
+ 1001  cat ~/.ssh/id_ed25519.pub
+ 1002  ssh -T git@github.com
+ 1003  ping github.com
+ 1004  clear
+ 1005  hostname -I
+ 1006  ip a
+ 1007  hostname -I
+ 1008  ping github.com
+ 1009  ping google.com
+ 1010  hostname -I
+ 1011  ip a
+ 1012  clear
+ 1013  ip a
+ 1014  ping github.com
+ 1015  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+ 1016  p10k configure
+ 1017  vim ~/.ssh/config
+ 1018  ssh -T git@github.com
+ 1019  ls
+ 1020  clear
+ 1021  ls
+ 1022  p10k configure
+ 1023  vim ~/.zshrc
+ 1024  p10k   
+ 1025  which p10k
+ 1026  vim ~/.zshrc
+ 1027  echo 'source ~/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+ 1028  p10k configure
+ 1029  exec zsh
+ 1030  p10k
+ 1031  p10k configure
+ 1032  vim ~/.p10k.zsh
+ 1033  clear
+ 1034  exit
+ 1035  clear
+ 1036  ls
+ 1037  clear
+ 1038  ls
+ 1039  vim ~/.p10k.zsh
+ 1040  curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+ 1041  chmod u+x nvim.appimage
+ 1042  ./nvim.appimage --appimage-extract
+ 1043  ./squashfs-root/AppRun --version
+ 1044  sudo mv squashfs-root /
+ 1045  sudo ln -s /squashfs-root/AppRun /usr/bin/nvim
+ 1046  nvim
+ 1047  cd ~/.config/nvim
+ 1048  mkdir -p ~/.config/nvim
+ 1049  cd ~/.config/nvim
+ 1050  git clone https://github.com/dvnf10cpp/nvim ~/.config/nvim
+ 1051  clear
+ 1052  nvim
+ 1053  git config --global http.sslVerify false
+ 1054  nvim
+ 1055  ls
+ 1056  vim init.lua
+ 1057  nvim
+ 1058  vim init.lua
+ 1059  nvim
+ 1060  clear
+ 1061  nvim
+ 1062  clear
+ 1063  ls
+ 1064  nvim
+ 1065  mv nvim.appimage Documents
+ 1066  vim
+ 1067  nvim
+ 1068  exit
+ 1069  clear
+ 1070  ls
+ 1071  clear
+ 1072  ls
+ 1073  id
+ 1074  id dvnver
+ 1075  ls -l
+ 1076  ps aux
+ 1077  id dvnver
+ 1078  sudo adduser sarah
+ 1079  su sarah
+ 1080  cd
+ 1081  su sarah
+ 1082  ls
+ 1083  clear
+ 1084  ls
+ 1085  su sarah
+ 1086  clear
+ 1087  userdel sarah
+ 1088  sudo userdel sarah
+ 1089  cd
+ 1090  sudo userdel sarah
+ 1091  sudo userdel -h sarah
+ 1092  sudo userdel sarah
+ 1093  sudo kill 1694
+ 1094  sudo userdel sarah
+ 1095  kill -9 1694
+ 1096  sudo kill -9 1694
+ 1097  la
+ 1098  cerce
+ 1099  ca
+ 1100  lerce
+ 1101  exit
+ 1102  su sarah
+ 1103  ls
+ 1104  cd
+ 1105  sudo userdel sarah
+ 1106  pkill 2352
+ 1107  sudo userdel sarah
+ 1108  sudo deluser sarah
+ 1109  su sarah
+ 1110  su se
+ 1111  su aldo
+ 1112  pid
+ 1113  ps
+ 1114  pgrep 2352
+ 1115  sudo deluser sarah
+ 1116  ps -p 2352
+ 1117  ps -u sarah
+ 1118  sudo kill 2352
+ 1119  ps -u sarah
+ 1120  sudo pkill 2352
+ 1121  ps -u sarah
+ 1122  sudo pkill 2469
+ 1123  ps -u sarah
+ 1124  sudo su
+ 1125  su sarah
+ 1126  sudo userdel -r sarah
+ 1127  kill -f 2352
+ 1128  killall -TERM -u sarah
+ 1129  sudo killall -TERM -u sarah
+ 1130  userdel sarah
+ 1131  sudo userdel -r sarah
+ 1132  sudo userdel sarah
+ 1133  su sarah
+ 1134  su admin
+ 1135  sudo useradd izza
+ 1136  sudo userdel izza
+ 1137  sudo adduser sarah
+ 1138  sudo userdel sarah
+ 1139  su sarah
+ 1140  sudo adduser sarah
+ 1141  su sarah
+ 1142  ls
+ 1143  su sarah
+ 1144  sudo su
+ 1145  su sarah
+ 1146  killall -TERM -u sarah
+ 1147  sudo killall -TERM -u sarah
+ 1148  su sarah
+ 1149  userdel sarah
+ 1150  sudo userdel sarah
+ 1151  su sarah
+ 1152  sudo groupadd latihan
+ 1153  usermod -aG latihan dvnver
+ 1154  sudo usermod -aG latihan dvnnver
+ 1155  sudo usermod -aG latihan dvnver
+ 1156  id dvnver
+ 1157  sudo groupdel latihan
+ 1158  history
+ 1159  ls /etc/group
+ 1160  ls /etc/grp
+ 1161  cd /
+ 1162  ls
+ 1163  cd home
+ 1164  ls
+ 1165  sudo rmdir sarah
+ 1166  su sarah
+ 1167  sudo rm -rf sarah
+ 1168  ls
+ 1169  cd dvnver
+ 1170  ls
+ 1171  cd Documents 
+ 1172  ls
+ 1173  mkdir Dicoding
+ 1174  cd Dicoding
+ 1175  ls
+ 1176  touch latihan
+ 1177  ls
+ 1178  rm latihan
+ 1179  cd
+ 1180  cd /dev
+ 1181  ls
+ 1182  cd
+ 1183  ls
+ 1184  clear
+ 1185  df -h
+ 1186  dd if=/dev/zero of=virtualdisk.img bs=1M count=1000
+ 1187  ls
+ 1188  losetup
+ 1189  sudo losetup loop0 virtualdisk.img
+ 1190  losetup
+ 1191  lsblk
+ 1192  cfdisk
+ 1193  sudo cfdisk
+ 1194  sudo fdisk -l /dev/sda
+ 1195  sudo fdisk /dev/loop0
+ 1196  sudo parted /dev/loop0
+ 1197  sudo mkfs.ext4 /dev/loop0p1
+ 1198  df
+ 1199  file virtualdisk.img
+ 1200  sudo losetup -d /dev/loop0
+ 1201  rm virtualdisk.img
+ 1202  ls -a
+ 1203  ls -la
+ 1204  ls -l virtual*
+ 1205  ls -l go*
+ 1206  sudo apt-get install nginx
+ 1207  cd /var/www/html
+ 1208  ls
+ 1209  cat indexn.nginx-debian.html
+ 1210  cat index.nginx-debian.html
+ 1211  rm index.html
+ 1212  sudo systemctl status nginx
+ 1213  sudo netstat -tuln | grep nginx
+ 1214  sudo ss -tuln | grep nginx
+ 1215  sudo systemctl start nginx
+ 1216  sudo vim /etc/nginx/nginx.conf
+ 1217  tree
+ 1218  clear
+ 1219  cd
+ 1220  clear
+ 1221  ls -l
+ 1222  cd Documents 
+ 1223  ls
+ 1224  cd Dicoding
+ 1225  ls
+ 1226  touch main.sh
+ 1227  ls -l
+ 1228  mkdir coba
+ 1229  ls -l
+ 1230  ./coba
+ 1231  cd ..
+ 1232  clear
+ 1233  ls -l
+ 1234  chmod -rw main.sh
+ 1235  ls -l
+ 1236  chmod +rw main.sh
+ 1237  ls -l
+ 1238  chmod u+x main.sh
+ 1239  ls -l
+ 1240  ls
+ 1241  clear
+ 1242  sudo useradd izza
+ 1243  ls
+ 1244  sudo chown izza:izza coba
+ 1245  ls -l
+ 1246  sudo userdel izza
+ 1247  ls l
+ 1248  ls -l
+ 1249  sudo chown dvnver:dvnver coba
+ 1250  ls
+ 1251  ls -l
+ 1252  clear
+ 1253  sudo adduser user01
+ 1254  sudo adduser user02
+ 1255  su user01
+ 1256  sudo chown -R user02:user02 latihan-user01
+ 1257  ls- l
+ 1258  ls -l
+ 1259  sudo ls -l
+ 1260  sudo chmod 777 file-user01.sh
+ 1261  vim file-user01.sh
+ 1262  ls -l
+ 1263  sudo ls -l
+ 1264  sudo chmod 777 file-user01.sh
+ 1265  ls -l
+ 1266  sudo ls -l
+ 1267  cd
+ 1268  userdel user01
+ 1269  sudo ouserdel user01
+ 1270  sudo userdel user01
+ 1271  killall -TERM -u user01
+ 1272  sudo killall -TERM -u user01
+ 1273  userdel user01
+ 1274  sudo userdel user01
+ 1275  sudo killall -TERM -u user01 && userdel user01
+ 1276  clear
+ 1277  userdel user02
+ 1278  sudo userdel user02
+ 1279  cd
+ 1280  ls
+ 1281  userdel user01
+ 1282  sudo userdel user01
+ 1283  sudo killall -TERM -u user01    
+ 1284  c;ear
+ 1285  clear
+ 1286  ls
+ 1287  cd
+ 1288  clear
+ 1289  sudo killall -TERM -u user01
+ 1290  cd
+ 1291  sudo userdel user01
+ 1292  clear
+ 1293  cd Documents/Dicoding
+ 1294  ls
+ 1295  rm *
+ 1296  sudo rm -rf *
+ 1297  ls
+ 1298  touch file1 file2 file3
+ 1299  tar -cf arsip.tar file1 file2 file3
+ 1300  ls
+ 1301  rm arsip.tar
+ 1302  tar -cf arsip.tar *
+ 1303  ls
+ 1304  tar -tf arsip.tar
+ 1305  rm file1 file2 file3
+ 1306  tar -xf arsip.tar
+ 1307  ls
+ 1308  rm arsip.tar
+ 1309  tar -z arsip.tar *
+ 1310  tar -czf arsip.tar.gz *
+ 1311  ls
+ 1312  rm file1 file2 file3
+ 1313  tar -xzf arsip.tar.gz
+ 1314  ls
+ 1315  file fiel1
+ 1316  file file1
+ 1317  ls file1
+ 1318  stat file1
+ 1319  df fiel
+ 1320  df file1
+ 1321  ls
+ 1322  rm *
+ 1323  ls
+ 1324  clear
+ 1325  date; ls
+ 1326  clear
+ 1327  vim hello.sh
+ 1328  chmod u+x hello.sh
+ 1329  ./hello.sh
+ 1330  ls
+ 1331  touch main.sh
+ 1332  chmod u+x main.sh
+ 1333  vim main.sh
+ 1334  nvim
+ 1335  nvim main.sh
+ 1336  which nvim
+ 1337  cd ~/.config/nvim
+ 1338  ls
+ 1339  cd ..
+ 1340  cd 
+ 1341  cd Documents/Dicoding
+ 1342  ls
+ 1343  nvim main.sh
+ 1344  clear
+ 1345  vim main.sh
+ 1346  set
+ 1347  set 
+ 1348  clear
+ 1349  env
+ 1350  vim main.sh
+ 1351  ./main.sh
+ 1352  vim main.sh
+ 1353  ./main.sh
+ 1354  vim main.sh
+ 1355  ./main.sh
+ 1356  vim main.sh
+ 1357  ./main.sh
+ 1358  vim main.sh
+ 1359* cd Documents/Dicoding
+ 1360* ls
+ 1361  nvim main.sh
+ 1362* ./main.sh
+ 1363  sudo apt-get install vim-gtk
+ 1364  sudo apt-get update -y
+ 1365* ping 8.8.8.8 -c 5
+ 1366  sudo apt-get install vim-gtk
+ 1367  sudo apt-get upgrade
+ 1368* clear
+ 1369* vim main.sh
+ 1370* .
+ 1371* ./main.sh
+ 1372* ls -alh
+ 1373* ls -alh > ls.txt
+ 1374* cat ls.txt
+ 1375* wc -l ls.txt
+ 1376* > ls.txt
+ 1377* wc -l ls.txt
+ 1378* ls -l /var/log/*.log
+ 1379* ls -l /var/log/*.log | wc -l
+ 1380* ls
+ 1381* rm *
+ 1382* touch script-devanferrel.sh
+ 1383* free -m
+ 1384* nvim script-devanferrel.sh
+ 1385* chmod +x script-devanferrel.sh
+ 1386* ./script-devanferrel.sh
+ 1387  clear
+ 1388  ./script-devanferrel.sh
+ 1389  vim script-devanferrel.sh
